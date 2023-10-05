@@ -13,7 +13,19 @@
         android:layout_margin="16dp"
         android:textSize="16sp"
         android:hint="Enter your name"
-        android:id="@+id/editText"/>
+        android:id="@+id/editText"
+        android:background="@drawable/editext_design"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/enterBtn"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:textColor="#ffffff"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/editext_design"/>
 
 
 
