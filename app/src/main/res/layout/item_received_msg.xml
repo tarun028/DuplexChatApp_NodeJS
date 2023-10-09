@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/Name"
+        android:text="Name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:background="@color/appBar"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/receivedText"
+        android:text="Hello, this is a sample"/>
+
+</RelativeLayout>

@@ -20,6 +20,7 @@
     <Button
         android:layout_width="match_parent"
         android:id="@+id/enterBtn"
+        android:text="Enter Room"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
         android:textColor="#ffffff"
